@@ -39,13 +39,13 @@ builder.Services.Configure<IdentityOptions>(options =>
 builder.Services.AddSession(options =>
 {
     options.Cookie.Name = ".currentSession";
-    options.IdleTimeout = TimeSpan.FromSeconds(30); //data will be "deleted" after timeout 
+    options.IdleTimeout = TimeSpan.FromSeconds(60); //data will be "deleted" after timeout 
 });
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
 {
     options.Cookie.Name = ".currentSession";
-    options.ExpireTimeSpan = TimeSpan.FromSeconds(30);
+    options.ExpireTimeSpan = TimeSpan.FromSeconds(60);
     options.SlidingExpiration = false;
     options.Events = new CookieAuthenticationEvents()
     {
