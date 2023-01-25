@@ -1,0 +1,73 @@
+﻿@page
+@model Appsec_Assignment.Pages.LoginModel
+@{
+
+}
+
+@using Microsoft.Extensions.Configuration
+@using Microsoft.Extensions.Options
+@using AppsecAssignment
+@inject IOptions<GoogleCaptchaConfig> GoogleCaptchaConfig
+<form method="post">
+	<input type="hidden" id="LoginToken" asp-for="loginModel.Token"/>
+	<div class="container mt-5">
+
+		<div class="row justify-content-center align-items-center">
+
+			<div class="col-sm-12 col-md-12 col-lg-4">
+				<h1 class="mb-3">Login </h1>
+
+
+				<div asp-validation-summary="All" class="text-danger"></div>
+
+				<div class="mb-3">
+					<label asp-for="loginModel.Email" class="form-label">Email</label>
+					<input asp-for="loginModel.Email"  type="Text" class="form-control" />
+					<span asp-for="loginModel.Email" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<div>
+						<label asp-for="loginModel.Password" class="form-label" >Password</label>
+						<input asp-for="loginModel.Password" type="password" id="password" class="form-control" />
+						<span asp-for="loginModel.Password" class="text-danger"></span>
+					</div>
+					<input data-inline="true" type="button" onclick="showPass()" value="Show" />
+				</div>
+
+
+				<div class="mb-3">
+					<button type="submit" class="btn btn-primary">Login</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</form>
+<script src="https://www.google.com/recaptcha/api.js?render=@GoogleCaptchaConfig.Value.SiteKey"></script>
+<script type="text/javascript">
+	function showPass() {
+		if (document.getElementById("password").type == "password") {
+			document.getElementById("password").type = "text"
+		}
+		else {
+			document.getElementById("password").type = "password";
+		}
+
+	}
+	
+</script>
+<script>
+	function getToken()
+	{
+		grecaptcha.ready(function () {
+					grecaptcha.execute('@GoogleCaptchaConfig.Value.SiteKey', { action: 'submit' }).then(function (token) {
+						// Add your logic to submit to your backend server here.
+						console.log(token);
+						document.getElementById("LoginToken").value = token;
+					});
+				});
+	}
+	setInterval(getToken,115000); //token expires after 2mins so we request for a token every 115 seconds
+	getToken();
+</script>

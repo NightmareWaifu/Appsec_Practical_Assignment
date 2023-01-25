@@ -1,0 +1,145 @@
+﻿@page
+@model Appsec_Assignment.Pages.RegisterModel
+@{
+}
+<form method="post" enctype="multipart/form-data">
+<div>
+
+<div class="container mt-5">
+
+	<div class="row justify-content-center align-items-center">
+				<div class="col-lg-3">
+					<div class="card mb-4">
+						<div class="card-header">
+							<h4>Media</h4>
+						</div>
+						<div class="card-body">
+							<div class="input-upload">
+								<br />
+								<input class="form-control" type="file" asp-for="image" accept="image/jpg" onchange="showImgPreview(this)" />
+							</div>
+							<br />
+							<img id="imgPreview" class="rounded-circle"
+								 style="height:300px;width:300px;object-fit:cover"
+								 src="" />
+						</div>
+					</div>
+
+
+				</div>
+		<div class="col-sm-12 col-md-12 col-lg-4">
+			<h1 class="mb-3">Register </h1>
+
+			
+				<div asp-validation-summary="All" class="text-danger"></div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RModel.FullName">Full Name</label>
+					<input type="Text" asp-for="RModel.FullName" class="form-control" />
+					<span asp-validaton-for="RModel.FullName" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RModel.Email">Email Address</label>
+					<input type="Text" asp-for="RModel.Email" class="form-control" />
+					<span asp-validaton-for="RModel.Email" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+				<div>
+					<label class="form-label" asp-for="RModel.Password">Password</label>	
+					<div>
+						<input type="password" id="password" asp-for="RModel.Password" min="12" class="form-control" />
+					</div>
+					<span asp-validaton-for="RModel.Password" class="text-danger"></span>
+				</div>
+				<input data-inline="true" type="button" onclick="showPass()" value="Show" />
+				</div>
+				
+				<div class="mb-3">
+				<div>
+					<label class="form-label" asp-for="RModel.ConfirmPassword">Confirm Password</label>
+					<input type="password" id="CfmPassword" asp-for="RModel.ConfirmPassword" class="form-control" />
+					<span asp-validaton-for="RModel.ConfirmPassword" class="text-danger"></span>
+				</div>
+				<input data-inline="true" type="button" onclick="showCfmPass()" value="Show" />
+				</div>
+
+				
+
+				<div class="mb-3">
+					<label class="form-label" asp-for="RModel.CreditCard">Credit Card</label>
+					<input type="Text" asp-for="RModel.CreditCard" class="form-control" />
+					<span asp-validaton-for="RModel.CreditCard" class="text-danger"></span>
+				</div>
+
+					<div class="mb-3">
+						<label class="form-label" asp-for="RModel.Gender">Change to radio</label>
+						<input type="Text" asp-for="RModel.Gender" class="form-control" />
+						<span asp-validaton-for="RModel.Gender" class="text-danger"></span>
+					</div>
+
+
+					<div class="mb-3">
+						<label class="form-label" asp-for="RModel.PhoneNo">Phone Number</label>
+						<input type="Text" asp-for="RModel.PhoneNo" class="form-control" />
+						<span asp-validaton-for="RModel.Phone" class="text-danger"></span>
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" asp-for="RModel.Address">Address</label>
+						<input type="Text" asp-for="RModel.Address" class="form-control" />
+						<span asp-validaton-for="RModel.Address" class="text-danger"></span>
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" asp-for="RModel.AboutMe">Change to text area</label>
+						<input type="Text" asp-for="RModel.AboutMe" class="form-control" />
+						<span asp-validaton-for="RModel.AboutMe" class="text-danger"></span>
+					</div>
+
+				
+
+				<div class="mb-3">
+					<button type="submit" class="btn btn-primary">Register</button>
+				</div>
+			
+		</div>
+	</div>
+</div>
+</div>
+</form>
+<script>
+	function showPass()
+	{
+		if(document.getElementById("password").type == "password")
+		{
+			document.getElementById("password").type = "text"
+		}
+		else
+		{
+		document.getElementById("password").type = "password";
+		}
+							
+	}
+	function showCfmPass() {
+		if (document.getElementById("CfmPassword").type == "password") {
+			document.getElementById("CfmPassword").type = "text"
+		}
+		else {
+			document.getElementById("CfmPassword").type = "password";
+		}
+
+	}
+
+	function showImgPreview(input) {
+		if (input.files[0]) {
+			var uploadimg = new FileReader();
+			uploadimg.onload = function (displayimg) {
+				//var isValid = /\.jpeg$/i.test(input.value);
+				$("#imgPreview").attr('src', displayimg.target.result);
+			}
+			uploadimg.readAsDataURL(input.files[0]);
+		}
+	}
+</script>

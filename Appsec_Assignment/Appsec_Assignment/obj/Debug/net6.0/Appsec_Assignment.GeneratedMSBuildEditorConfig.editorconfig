@@ -1,0 +1,64 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Appsec_Assignment
+build_property.RootNamespace = Appsec_Assignment
+build_property.ProjectDir = C:\Users\iraza\Documents\Y2S2\AS\Practical Assignment\Appsec_Assignment\Appsec_Assignment\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\iraza\Documents\Y2S2\AS\Practical Assignment\Appsec_Assignment\Appsec_Assignment
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/Account/OTP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxPVFAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/Main/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/Shared/_FlashMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9GbGFzaE1lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iraza/Documents/Y2S2/AS/Practical Assignment/Appsec_Assignment/Appsec_Assignment/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-u017m6x9ht
