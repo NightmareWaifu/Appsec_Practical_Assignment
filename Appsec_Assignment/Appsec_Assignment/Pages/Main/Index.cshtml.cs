@@ -27,16 +27,16 @@ namespace Appsec_Assignment.Pages.Main
 
         public async Task<IActionResult> OnGet()
         {
-            CurrentUser = await _userManager.FindByEmailAsync(HttpContext.Session.GetString("_Email"));
+            //CurrentUser = await _userManager.FindByEmailAsync(HttpContext.Session.GetString("_Email"));
 
-            if (CurrentUser == null)
+            if (HttpContext.Session.GetString("_Email") == null)
             {
                 await _signInManager.SignOutAsync();
                 TempData["FlashMessage.Type"] = "danger";
                 TempData["FlashMessage.Text"] = "Session timed out.";
                 return Redirect("../Account/Login");
             }
-            
+            CurrentUser = await _userManager.FindByEmailAsync(HttpContext.Session.GetString("_Email"));
             return Page();
         }
 

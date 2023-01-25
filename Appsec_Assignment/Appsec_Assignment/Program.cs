@@ -26,18 +26,26 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequireNonAlphanumeric = true;
     options.Password.RequireLowercase = true;
     options.Password.RequireUppercase = true;
+    options.Password.RequireDigit = true;
+    options.Password.RequiredUniqueChars = 1;
+
+    //lockout
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+    options.Lockout.MaxFailedAccessAttempts = 3;
+    options.Lockout.AllowedForNewUsers = true;
+
 });
 
 builder.Services.AddSession(options =>
 {
     options.Cookie.Name = ".currentSession";
-    options.IdleTimeout = TimeSpan.FromSeconds(300); //data will be "deleted" after timeout 
+    options.IdleTimeout = TimeSpan.FromSeconds(30); //data will be "deleted" after timeout 
 });
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
 {
     options.Cookie.Name = ".currentSession";
-    options.ExpireTimeSpan = TimeSpan.FromSeconds(300);
+    options.ExpireTimeSpan = TimeSpan.FromSeconds(30);
     options.SlidingExpiration = false;
     options.Events = new CookieAuthenticationEvents()
     {

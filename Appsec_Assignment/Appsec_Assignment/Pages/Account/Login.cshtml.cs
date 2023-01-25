@@ -17,6 +17,7 @@ namespace Appsec_Assignment.Pages
 
         private SignInManager<ApplicationUser> signInManager { get; }
         public string OTPNo;
+        public string startDate;
 
         //private SignInManager<ApplicationUser> signInManager { get; }
 
@@ -91,6 +92,8 @@ namespace Appsec_Assignment.Pages
                     //smtp.Timeout = 1000;
                     smtp.Credentials = new System.Net.NetworkCredential("irazachary@gmail.com", "qtbjrmqitxhoztie");
                     smtp.Send(mail);
+
+
                     TempData["FlashMessage.Type"] = "success";
                     TempData["FlashMessage.Text"] = "OTP sent!";
                 }

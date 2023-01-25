@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aYncqlkPamfmfA0AZ2PO0MgDj8ZSAqQ+fZ6DEakFZhs=",
+  "Hash": "z3+rgVg1Ho6ai7vGKG/5b5KxAUBsAgn8AclGN1Q2Wj8=",
   "Source": "Appsec_Assignment",
   "BasePath": "_content/Appsec_Assignment",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Appsec_Assignment\\wwwroot",
       "Source": "Appsec_Assignment",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Appsec_Assignment.styles.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Appsec_Assignment.styles.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "Appsec_Assignment.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Appsec_Assignment.styles.css"
+      "OriginalItemSpec": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Appsec_Assignment.styles.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Appsec_Assignment.bundle.scp.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Appsec_Assignment.bundle.scp.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "Appsec_Assignment.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Appsec_Assignment.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Appsec_Assignment.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\css\\site.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\favicon.ico",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\js\\site.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1071,10 +1071,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\2ead45e5-969c-4f19-ae8f-fff52aaa7570.jpg",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\241be75c-d46c-48c1-8486-7e51d0d9ff85.jpg",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "BasePath": "_content/Appsec_Assignment",
+      "RelativePath": "uploads/241be75c-d46c-48c1-8486-7e51d0d9ff85.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\241be75c-d46c-48c1-8486-7e51d0d9ff85.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\2ead45e5-969c-4f19-ae8f-fff52aaa7570.jpg",
+      "SourceId": "Appsec_Assignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "uploads/2ead45e5-969c-4f19-ae8f-fff52aaa7570.jpg",
       "AssetKind": "All",
@@ -1088,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\2ead45e5-969c-4f19-ae8f-fff52aaa7570.jpg"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\3307088b-2aeb-4e19-947a-935099134a9f.JPG",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\3307088b-2aeb-4e19-947a-935099134a9f.JPG",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "uploads/3307088b-2aeb-4e19-947a-935099134a9f.JPG",
       "AssetKind": "All",
@@ -1105,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\3307088b-2aeb-4e19-947a-935099134a9f.JPG"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\479fcd55-d29e-4e5f-9d60-b83b9027d373.jpg",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\479fcd55-d29e-4e5f-9d60-b83b9027d373.jpg",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "uploads/479fcd55-d29e-4e5f-9d60-b83b9027d373.jpg",
       "AssetKind": "All",
@@ -1122,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\479fcd55-d29e-4e5f-9d60-b83b9027d373.jpg"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\4ad6fabf-9e0e-42ad-a645-4b0958332cdd.jpg",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\4ad6fabf-9e0e-42ad-a645-4b0958332cdd.jpg",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "uploads/4ad6fabf-9e0e-42ad-a645-4b0958332cdd.jpg",
       "AssetKind": "All",
@@ -1139,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\4ad6fabf-9e0e-42ad-a645-4b0958332cdd.jpg"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\500685ba-a16e-44f7-b1e7-648a6c5b8242.JPG",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\500685ba-a16e-44f7-b1e7-648a6c5b8242.JPG",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "uploads/500685ba-a16e-44f7-b1e7-648a6c5b8242.JPG",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\500685ba-a16e-44f7-b1e7-648a6c5b8242.JPG"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\52ab9ffd-ee0b-4c02-9de1-14cc80e0c585.png",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\52ab9ffd-ee0b-4c02-9de1-14cc80e0c585.png",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "uploads/52ab9ffd-ee0b-4c02-9de1-14cc80e0c585.png",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\52ab9ffd-ee0b-4c02-9de1-14cc80e0c585.png"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\a27c208f-6147-44df-b4eb-189494abd9f9.JPG",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\a27c208f-6147-44df-b4eb-189494abd9f9.JPG",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "uploads/a27c208f-6147-44df-b4eb-189494abd9f9.JPG",
       "AssetKind": "All",
@@ -1190,10 +1207,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\a27c208f-6147-44df-b4eb-189494abd9f9.JPG"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\afc184be-8bbd-41f6-8e13-04f36f53d84e.png",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\a60d7e18-f6bc-4e5c-ad5e-9914b1e08c55.jpg",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "BasePath": "_content/Appsec_Assignment",
+      "RelativePath": "uploads/a60d7e18-f6bc-4e5c-ad5e-9914b1e08c55.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\a60d7e18-f6bc-4e5c-ad5e-9914b1e08c55.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\afc184be-8bbd-41f6-8e13-04f36f53d84e.png",
+      "SourceId": "Appsec_Assignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "uploads/afc184be-8bbd-41f6-8e13-04f36f53d84e.png",
       "AssetKind": "All",
@@ -1207,10 +1241,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\afc184be-8bbd-41f6-8e13-04f36f53d84e.png"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\dd589ccc-4382-4d94-8984-1fb68f2a7636.JPG",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\cb00a95c-9312-4521-a6ed-af777450a959.jpg",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "BasePath": "_content/Appsec_Assignment",
+      "RelativePath": "uploads/cb00a95c-9312-4521-a6ed-af777450a959.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cb00a95c-9312-4521-a6ed-af777450a959.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\dd589ccc-4382-4d94-8984-1fb68f2a7636.JPG",
+      "SourceId": "Appsec_Assignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "uploads/dd589ccc-4382-4d94-8984-1fb68f2a7636.JPG",
       "AssetKind": "All",
@@ -1224,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\dd589ccc-4382-4d94-8984-1fb68f2a7636.JPG"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\f19868c2-9b95-461b-bd1f-63941930886f.JPG",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\f19868c2-9b95-461b-bd1f-63941930886f.JPG",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "uploads/f19868c2-9b95-461b-bd1f-63941930886f.JPG",
       "AssetKind": "All",
@@ -1241,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\f19868c2-9b95-461b-bd1f-63941930886f.JPG"
     },
     {
-      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\f38c2c07-acf6-4883-84ce-f8edd038a9be.JPG",
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\f38c2c07-acf6-4883-84ce-f8edd038a9be.JPG",
       "SourceId": "Appsec_Assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
       "BasePath": "_content/Appsec_Assignment",
       "RelativePath": "uploads/f38c2c07-acf6-4883-84ce-f8edd038a9be.JPG",
       "AssetKind": "All",

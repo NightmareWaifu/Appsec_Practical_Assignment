@@ -26,35 +26,37 @@ namespace Appsec_Assignment.Pages.Account
         public string OTP { get; set; }
         public void OnGet()
         {
+
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
-            
-            var user = await _userManager.FindByEmailAsync(HttpContext.Session.GetString("_Email"));
-            if(user == null)
+
+         if (HttpContext.Session.GetString("_otp")==null)
             {
                 TempData["FlashMessage.Type"] = "danger";
-                TempData["FlashMessage.Text"] = "Session timed out.";
+                TempData["FlashMessage.Text"] = "OTP has expired.";
                 return RedirectToPage("Login");
             }
-
-            if(OTP == HttpContext.Session.GetString("_otp"))
+         else
             {
-                await _signInManager.SignInAsync(user, true); //authenticates the user
-                //user.loggedIn = true;
-                TempData["FlashMessage.Type"] = "success";
-                TempData["FlashMessage.Text"] = "Logged in successfully!";
-                return Redirect("../Main/Index");
-            }
-            else
-            {
-                TempData["FlashMessage.Type"] = "danger";
-                TempData["FlashMessage.Text"] = "OTP is incorrect.";
-                return Page();
-            }
-            
+                if (OTP == HttpContext.Session.GetString("_otp"))
+                {
+                    var user = await _userManager.FindByEmailAsync(HttpContext.Session.GetString("_Email"));
+                    await _signInManager.SignInAsync(user, true); //authenticates the user
+                    //user.loggedIn = true;
+                    TempData["FlashMessage.Type"] = "success";
+                    TempData["FlashMessage.Text"] = "Logged in successfully!";
+                    return Redirect("../Main/Index");
+                }
+                else
+                {
+                    TempData["FlashMessage.Type"] = "danger";
+                    TempData["FlashMessage.Text"] = "OTP is incorrect.";
+                    return Page();
+                }
 
+            }
 
         }
     }

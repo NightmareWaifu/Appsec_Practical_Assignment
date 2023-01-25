@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6kWuWK3AoBsJ/SAlDvHKjnA1EqiI9kgOuu9fPix3oBxz1NSlBAYxxhLZub2+iaiuvuJ0Mfno8Fr7SpIHwe4DeQ==",
+  "dgSpecHash": "FKekdh5IdOyhR1jqhOGmfRpdXYeDi1GuOpqZpAjdpqoluvZQP+XWTgEaSOIn5w4ogY33BybfIo0oia1vgV2u6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Assignment\\Appsec_Assignment\\Appsec_Assignment.csproj",
+  "projectFilePath": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\Appsec_Assignment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iraza\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\iraza\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
