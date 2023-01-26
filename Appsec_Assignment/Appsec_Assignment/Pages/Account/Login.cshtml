@@ -8,7 +8,8 @@
 @using Microsoft.Extensions.Options
 @using AppsecAssignment
 @inject IOptions<GoogleCaptchaConfig> GoogleCaptchaConfig
-<form method="post">
+<form method="post" asp-antiforgery="true">
+	@Html.AntiForgeryToken()
 	<input type="hidden" id="LoginToken" asp-for="loginModel.Token"/>
 	<div class="container mt-5">
 

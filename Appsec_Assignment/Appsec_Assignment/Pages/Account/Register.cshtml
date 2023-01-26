@@ -2,8 +2,10 @@
 @model Appsec_Assignment.Pages.RegisterModel
 @{
 }
-<form method="post" enctype="multipart/form-data">
-<div>
+<form method="post" enctype="multipart/form-data" asp-antiforgery="true">
+	@Html.AntiForgeryToken()
+	<div>
+		
 
 <div class="container mt-5">
 
@@ -69,20 +71,24 @@
 
 				<div class="mb-3">
 					<label class="form-label" asp-for="RModel.CreditCard">Credit Card</label>
-					<input type="Text" asp-for="RModel.CreditCard" class="form-control" />
+					<input type="text" asp-for="RModel.CreditCard" class="form-control" min="12" max="12"/>
 					<span asp-validaton-for="RModel.CreditCard" class="text-danger"></span>
 				</div>
 
 					<div class="mb-3">
-						<label class="form-label" asp-for="RModel.Gender">Change to radio</label>
-						<input type="Text" asp-for="RModel.Gender" class="form-control" />
+						
+						<label class="form-label" asp-for="RModel.Gender">Gender</label><br />
+						<input type="radio" asp-for="RModel.Gender" value="Male" />
+						<label>Male</label><br />
+						<input type="radio" asp-for="RModel.Gender" value="Female"/>
+						<label>Female</label><br />
 						<span asp-validaton-for="RModel.Gender" class="text-danger"></span>
 					</div>
 
 
 					<div class="mb-3">
 						<label class="form-label" asp-for="RModel.PhoneNo">Phone Number</label>
-						<input type="Text" asp-for="RModel.PhoneNo" class="form-control" />
+						<input type="text" asp-for="RModel.PhoneNo" class="form-control" min="8" max="8"/>
 						<span asp-validaton-for="RModel.Phone" class="text-danger"></span>
 					</div>
 

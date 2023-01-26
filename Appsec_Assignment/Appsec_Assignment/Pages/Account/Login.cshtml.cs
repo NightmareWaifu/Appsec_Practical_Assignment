@@ -66,8 +66,7 @@ namespace Appsec_Assignment.Pages
                 if (!user.Succeeded)
                 {
                     ModelState.AddModelError("message", "Email or Password is incorrect!");
-                    TempData["FlashMessage.Type"] = "danger";
-                    TempData["FlashMessage.Text"] = "user: " + user.IsLockedOut;
+
                     return Page();
                 }
                 if (User.Identity.IsAuthenticated)

@@ -45,6 +45,7 @@ builder.Services.AddSession(options =>
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
 {
     options.Cookie.Name = ".currentSession";
+    options.LoginPath = "Account/Login";
     options.ExpireTimeSpan = TimeSpan.FromSeconds(120);
     options.SlidingExpiration = false;
     options.Events = new CookieAuthenticationEvents()

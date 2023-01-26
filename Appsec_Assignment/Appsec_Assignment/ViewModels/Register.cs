@@ -6,6 +6,9 @@ namespace Appsec_Assignment.ViewModels
     public class Register
     {
         public string FullName { get; set; }
+        [Required]
+        [DataType(DataType.CreditCard)]
+        [RegularExpression(@"^[0-9]{12}$", ErrorMessage = "Incorrect card format")]
         public string CreditCard { get; set; }
 
         [Required]
@@ -14,15 +17,19 @@ namespace Appsec_Assignment.ViewModels
 
         [Required]
         [DataType(DataType.Password)]
+        //[RegularExpression(@"^(?=.[A-Z])(?=.[!@#$%^&])(?=.[0-9])(?=.*[a-z]).{12,}$")]
         public string Password { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
+        
         [Compare(nameof(Password), ErrorMessage = "Password and confirmation password does not match")]
         public string ConfirmPassword { get; set; }
         [Required]
         public string Gender { get; set; }
         [Required]
+        [DataType(DataType.PhoneNumber)]
+        [RegularExpression(@"^[0-9]{8}$", ErrorMessage = "Invalid Phone Number Format")]
         public string PhoneNo { get; set; }
         [Required]
         public string Address { get; set; }

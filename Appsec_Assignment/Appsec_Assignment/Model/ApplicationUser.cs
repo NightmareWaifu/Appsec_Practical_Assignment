@@ -18,5 +18,6 @@ namespace Appsec_Assignment.Model
 		public bool loggedIn { get; set; }
 
 		public int attempts { get; set; }
+
 	}
 }
