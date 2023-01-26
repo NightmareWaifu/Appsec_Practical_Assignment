@@ -3,12 +3,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Appsec_Assignment.ViewModels;
+using Appsec_Assignment.Pages.Account;
 
 namespace Appsec_Assignment.Pages.Account
 {        
     
-
-   
     public class OTPModel : PageModel
     {
         private SignInManager<ApplicationUser> _signInManager;
@@ -31,8 +30,8 @@ namespace Appsec_Assignment.Pages.Account
 
         public async Task<IActionResult> OnPostAsync()
         {
-
-         if (HttpContext.Session.GetString("_otp")==null)
+            var timeDiff = (DateTime.Now - LoginModel.sentOTP).TotalSeconds;
+         if (timeDiff > 30)
             {
                 TempData["FlashMessage.Type"] = "danger";
                 TempData["FlashMessage.Text"] = "OTP has expired.";

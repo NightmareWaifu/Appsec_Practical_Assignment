@@ -17,7 +17,7 @@ namespace Appsec_Assignment.Pages
 
         private SignInManager<ApplicationUser> signInManager { get; }
         public string OTPNo;
-        public string startDate;
+        public static DateTime sentOTP;
 
         //private SignInManager<ApplicationUser> signInManager { get; }
 
@@ -32,11 +32,16 @@ namespace Appsec_Assignment.Pages
             this._googleCaptchaService = googleCaptchaService;
         }
 
+        public void OnGet()
+        {
+           
+        }
         [BindProperty]
         public Login loginModel { get; set; }
 
         public async Task<IActionResult> OnPostAsync()
         {
+
             var captchaResult = await _googleCaptchaService.VerifyToken(loginModel.Token);
             if(!captchaResult)
             {
@@ -45,22 +50,27 @@ namespace Appsec_Assignment.Pages
                 return Page();
             }
 
-
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                var user = await userManager.FindByEmailAsync(loginModel.Email);
-                if (user == null)
-                {
-                    ModelState.AddModelError("message", "Email or Password is incorrect!");
-                    return Page();
-                }
-                if (await userManager.CheckPasswordAsync(user,loginModel.Password) == false)
-                {
-                    ModelState.AddModelError("message", "Email or Password is incorrect!");
-                    return Page();
-                }
+                
+                
+                var user = await signInManager.PasswordSignInAsync(loginModel.Email,loginModel.Password,true,true);
 
-                if(User.Identity.IsAuthenticated)
+
+                if (user.IsLockedOut)
+                {
+                    TempData["FlashMessage.Type"] = "danger";
+                    TempData["FlashMessage.Text"] = "Account is locked out. Try again later.";
+                    return Page();
+                }
+                if (!user.Succeeded)
+                {
+                    ModelState.AddModelError("message", "Email or Password is incorrect!");
+                    TempData["FlashMessage.Type"] = "danger";
+                    TempData["FlashMessage.Text"] = "user: " + user.IsLockedOut;
+                    return Page();
+                }
+                if (User.Identity.IsAuthenticated)
                 {
                     //user is already in another session
                     TempData["FlashMessage.Type"] = "danger";
@@ -69,9 +79,10 @@ namespace Appsec_Assignment.Pages
                 }
                 //await signInManager.SignInAsync(user, true); //authenticates the user
                 //add session data here if you need any
+                HttpContext.Session.Clear();
                 HttpContext.Session.SetString(SessionEmail, loginModel.Email);
-                
-                
+                sentOTP = DateTime.Now;
+                await signInManager.SignOutAsync();
 
                 //SMTP Logic
                 try
@@ -82,7 +93,7 @@ namespace Appsec_Assignment.Pages
                     HttpContext.Session.SetString("_otp", OTPNo);
                     MailMessage mail = new MailMessage();
                     mail.From = new MailAddress("irazachary@gmail.com");
-                    mail.To.Add(HttpContext.Session.GetString("_Email"));
+                    mail.To.Add(loginModel.Email);
                     mail.Subject = ("Your OTP number.");
                     mail.Body = ("Your OTP is " + OTPNo);
                     Console.WriteLine("OPT Passed:" + OTPNo);

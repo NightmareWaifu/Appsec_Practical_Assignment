@@ -82,7 +82,7 @@ namespace Appsec_Assignment.Pages
                 var result = await userManager.CreateAsync(user, RModel.Password);
                 if (result.Succeeded)
                 {
-                    await signInManager.SignInAsync(user, false);
+                    //await signInManager.SignInAsync(user, false);
                     TempData["FlashMessage.Type"] = "success";
                     TempData["FlashMessage.Text"] = RModel.FullName + " added successfully!";
                     return RedirectToPage("Login");

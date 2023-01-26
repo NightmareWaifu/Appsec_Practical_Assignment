@@ -42,7 +42,7 @@
                                     <a class="nav-link text-dark" asp-area="" asp-page="/Account/Login">Login</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" >Authenticated: @User.Identity.IsAuthenticated</a>
+                                    <a class="nav-link text-dark" asp-area="" ></a>
                                 </li>
                             }
                             else
@@ -59,9 +59,6 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-page="/Main/Index" asp-page-handler="Logout">Logout</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" >Authenticated: @User.Identity.IsAuthenticated</a>
                                 </li>
                             }
                             

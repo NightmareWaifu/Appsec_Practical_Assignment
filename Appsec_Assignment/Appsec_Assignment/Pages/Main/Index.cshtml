@@ -5,6 +5,9 @@
 
 <h1>Yay you logged in!</h1>
 <div>
+	<img id="imgPreview" class="rounded-circle"
+	style="height:275px;width:275px;object-fit:cover"
+	src="@Model.CurrentUser.ImagePath" />
 	<p>Email: @Model.CurrentUser.Email</p>
 	<p>Name: @Model.CurrentUser.FullName</p>
 </div>

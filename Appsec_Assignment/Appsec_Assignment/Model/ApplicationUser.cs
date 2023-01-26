@@ -17,5 +17,6 @@ namespace Appsec_Assignment.Model
 		[DefaultValue(false)]
 		public bool loggedIn { get; set; }
 
+		public int attempts { get; set; }
 	}
 }
