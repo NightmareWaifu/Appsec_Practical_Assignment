@@ -90,7 +90,8 @@ namespace Appsec_Assignment.Pages
                     SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
                     smtp.EnableSsl = true;
                     //smtp.Timeout = 1000;
-                    smtp.Credentials = new System.Net.NetworkCredential("irazachary@gmail.com", "qtbjrmqitxhoztie");
+                    string pass = "iadqahickdoimyqd";
+                    smtp.Credentials = new System.Net.NetworkCredential("irazachary@gmail.com", pass);
                     smtp.Send(mail);
 
 
