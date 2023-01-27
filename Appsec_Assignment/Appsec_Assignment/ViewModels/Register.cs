@@ -8,7 +8,7 @@ namespace Appsec_Assignment.ViewModels
         public string FullName { get; set; }
         [Required]
         [DataType(DataType.CreditCard)]
-        [RegularExpression(@"^[0-9]{12}$", ErrorMessage = "Incorrect card format")]
+        [RegularExpression(@"^[0-9]{12}$", ErrorMessage = "Incorrect card format - Must contain 12 numerical digits only")]
         public string CreditCard { get; set; }
 
         [Required]
@@ -29,7 +29,7 @@ namespace Appsec_Assignment.ViewModels
         public string Gender { get; set; }
         [Required]
         [DataType(DataType.PhoneNumber)]
-        [RegularExpression(@"^[0-9]{8}$", ErrorMessage = "Invalid Phone Number Format")]
+        [RegularExpression(@"^[0-9]{8}$", ErrorMessage = "Invalid Phone Number Format - Must contain 8 numerical digits only")]
         public string PhoneNo { get; set; }
         [Required]
         public string Address { get; set; }

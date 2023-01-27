@@ -1,13 +1,23 @@
 ﻿@page
+@using Microsoft.AspNetCore.DataProtection
 @model Appsec_Assignment.Pages.Main.IndexModel
 @{
 }
 
 <h1>Yay you logged in!</h1>
 <div>
+	@{
+		var dataProtectionProvider = DataProtectionProvider.Create("EncryptData");
+		var protector = dataProtectionProvider.CreateProtector("MySecretKey");
+	}
 	<img id="imgPreview" class="rounded-circle"
 	style="height:275px;width:275px;object-fit:cover"
 	src="@Model.CurrentUser.ImagePath" />
 	<p>Email: @Model.CurrentUser.Email</p>
 	<p>Name: @Model.CurrentUser.FullName</p>
+	<p>Credit Card: @protector.Unprotect(Model.CurrentUser.CreditCard)</p>
+	<p>Gender: @Model.CurrentUser.Gender</p>
+	<p>Phone Number: @Model.CurrentUser.PhoneNumber</p>
+	<p>Address: @Model.CurrentUser.Address</p>
+	<p>About Me: @Model.CurrentUser.AboutMe</p>
 </div>

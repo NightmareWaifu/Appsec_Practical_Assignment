@@ -95,7 +95,7 @@ namespace Appsec_Assignment.Pages
                     mail.To.Add(loginModel.Email);
                     mail.Subject = ("Your OTP number.");
                     mail.Body = ("Your OTP is " + OTPNo);
-                    Console.WriteLine("OPT Passed:" + OTPNo);
+                    //Console.WriteLine("OPT Passed:" + OTPNo);
                     mail.IsBodyHtml = true;
                     SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
                     smtp.EnableSsl = true;
@@ -113,6 +113,7 @@ namespace Appsec_Assignment.Pages
                     Console.WriteLine("Failed reason" + ex.ToString());
                     TempData["FlashMessage.Type"] = "danger";
                     TempData["FlashMessage.Text"] = "Failed to send OTP.";
+                    return Page();
                 }
                 return RedirectToPage("OTP");
             }

@@ -45,6 +45,8 @@ namespace Appsec_Assignment.Pages.Main
             await _signInManager.SignOutAsync();
             //CurrentUser.loggedIn = false;
             HttpContext.Session.Clear();
+            TempData["FlashMessage.Type"] = "success";
+            TempData["FlashMessage.Text"] = "Logged out!";
             return Redirect("../Account/Login");
         }
 

@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Appsec_Assignment.Model;
 using Appsec_Assignment.ViewModels;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.SqlServer.Server;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Appsec_Assignment.Pages
 {
@@ -49,8 +51,9 @@ namespace Appsec_Assignment.Pages
                 
                 if (Path.GetExtension(image.FileName) != ".JPG" && Path.GetExtension(image.FileName) != ".jpg")
                 {
-                    TempData["FlashMessage.Type"] = "danger";
-                    TempData["FlashMessage.Text"] = "Image has to be .jpg | " + Path.GetExtension(image.FileName);
+                    //TempData["FlashMessage.Type"] = "danger";
+                    ModelState.AddModelError("Image has to be in .jpg format", "Image has to be in .jpg format");
+                    //TempData["FlashMessage.Text"] = "Image has to be .jpg | " + Path.GetExtension(image.FileName);
                     return Page();
                 }
                 //check password complexity
