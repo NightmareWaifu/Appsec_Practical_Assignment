@@ -1,5 +1,6 @@
 using Appsec_Assignment.Model;
 using Appsec_Assignment.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -7,8 +8,10 @@ using Microsoft.EntityFrameworkCore.Query;
 
 namespace Appsec_Assignment.Pages.Main
 {
+    [Authorize]
     public class ResetPassModel : PageModel
     {
+        
 
         private readonly GoogleCaptchaService _googleCaptchaService;
         private UserManager<ApplicationUser> userManager { get; }
@@ -34,6 +37,11 @@ namespace Appsec_Assignment.Pages.Main
                 if (!(changePassModel.Email == HttpContext.Session.GetString("_Email")))
                 {
                     ModelState.AddModelError("", "Email is incorrect!");
+                    return Page();
+                }
+                if (changePassModel.CurrentPassword == changePassModel.ChangePassword)
+                {
+                    ModelState.AddModelError("", "New password cannot be the same as the old one!");
                     return Page();
                 }
                 var user = await userManager.FindByEmailAsync(changePassModel.Email);

@@ -45,7 +45,7 @@ builder.Services.AddSession(options =>
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
 {
     options.Cookie.Name = ".currentSession";
-    options.LoginPath = "Account/Login";
+    options.LoginPath = "/Account/Login";
     options.ExpireTimeSpan = TimeSpan.FromSeconds(120);
     options.SlidingExpiration = false;
     options.Events = new CookieAuthenticationEvents()
@@ -84,6 +84,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseStatusCodePagesWithRedirects("/ErrorPages/{0}");
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
