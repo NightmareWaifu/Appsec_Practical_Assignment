@@ -1,0 +1,91 @@
+﻿@page
+@model Appsec_Assignment.Pages.Main.ResetPassModel
+@{
+}
+
+@using Microsoft.Extensions.Configuration
+@using Microsoft.Extensions.Options
+@using AppsecAssignment
+<form method="post" asp-antiforgery="true">
+	<div class="container mt-5">
+
+		<div class="row justify-content-center align-items-center">
+
+			<div class="col-sm-12 col-md-12 col-lg-4">
+				<h1 class="mb-3">Login </h1>
+
+
+				<div asp-validation-summary="All" class="text-danger"></div>
+
+				<div class="mb-3">
+					<label asp-for="changePassModel.Email" class="form-label">Email</label>
+					<input asp-for="changePassModel.Email"  type="Text" class="form-control" />
+					<span asp-for="changePassModel.Email" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<div>
+						<label asp-for="changePassModel.CurrentPassword" class="form-label" >Current Password</label>
+						<input asp-for="changePassModel.CurrentPassword" type="password" id="CurrentPassword" class="form-control" />
+						<span asp-for="changePassModel.CurrentPassword" class="text-danger"></span>
+					</div>
+					<input data-inline="true" id="showBtn" type="button" onclick="showPass()" value="Show" />
+				</div>
+
+				<div class="mb-3">
+					<div>
+						<label asp-for="changePassModel.ChangePassword" class="form-label">New Password</label>
+						<input asp-for="changePassModel.ChangePassword" type="password" id="ChangePassword" class="form-control" />
+						<span asp-for="changePassModel.ChangePassword" class="text-danger"></span>
+					</div>
+					<input data-inline="true" id="showNewBtn" type="button" onclick="showCfmPass()" value="Show" />
+				</div>
+
+
+				<div class="mb-3">
+					<button type="submit" class="btn btn-primary">Change Password</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</form>
+<script type="text/javascript">
+	function showPass() {
+		if (document.getElementById("CurrentPassword").type == "password") {
+			document.getElementById("CurrentPassword").type = "text";
+			document.getElementById("showBtn").value = "hide";
+		}
+		else {
+			document.getElementById("CurrentPassword").type = "password";
+			document.getElementById("showBtn").value = "show";
+		}
+
+	}
+	function showCfmPass() {
+		if (document.getElementById("ChangePassword").type == "password") {
+			document.getElementById("ChangePassword").type = "text";
+			document.getElementById("showNewBtn").value = "hide";
+		}
+		else {
+			document.getElementById("ChangePassword").type = "password";
+			document.getElementById("showNewBtn").value = "show";
+		}
+
+	}
+	
+</script>
+@*<script>
+	function getToken()
+	{
+		grecaptcha.ready(function () {
+					grecaptcha.execute('@GoogleCaptchaConfig.Value.SiteKey', { action: 'submit' }).then(function (token) {
+						// Add your logic to submit to your backend server here.
+						console.log(token);
+						document.getElementById("LoginToken").value = token;
+					});
+				});
+	}
+	setInterval(getToken,115000); //token expires after 2mins so we request for a token every 115 seconds
+	getToken();
+</script>*@

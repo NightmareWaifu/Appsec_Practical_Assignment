@@ -33,7 +33,7 @@
 						<input asp-for="loginModel.Password" type="password" id="password" class="form-control" />
 						<span asp-for="loginModel.Password" class="text-danger"></span>
 					</div>
-					<input data-inline="true" type="button" onclick="showPass()" value="Show" />
+					<input data-inline="true" id="showBtn" type="button" onclick="showPass()" value="Show" />
 				</div>
 
 
@@ -50,9 +50,12 @@
 	function showPass() {
 		if (document.getElementById("password").type == "password") {
 			document.getElementById("password").type = "text"
+			document.getElementById("showBtn").value = "hide";
 		}
 		else {
 			document.getElementById("password").type = "password";
+			document.getElementById("showBtn").value = "show";
+
 		}
 
 	}

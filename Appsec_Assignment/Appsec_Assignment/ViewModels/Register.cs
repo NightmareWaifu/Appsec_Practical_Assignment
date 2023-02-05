@@ -23,7 +23,7 @@ namespace Appsec_Assignment.ViewModels
         [Required]
         [DataType(DataType.Password)]
         
-        [Compare(nameof(Password), ErrorMessage = "Password and confirmation password does not match")]
+        [Compare(nameof(Password), ErrorMessage = "Password and confirm password does not match")]
         public string ConfirmPassword { get; set; }
         [Required]
         public string Gender { get; set; }

@@ -55,7 +55,7 @@
 					</div>
 					<span asp-validaton-for="RModel.Password" class="text-danger"></span>
 				</div>
-				<input data-inline="true" type="button" onclick="showPass()" value="Show" />
+				<input data-inline="true" type="button" id="passBtn" onclick="showPass()" value="Show" />
 				</div>
 				
 				<div class="mb-3">
@@ -64,7 +64,7 @@
 					<input type="password" id="CfmPassword" asp-for="RModel.ConfirmPassword" class="form-control" />
 					<span asp-validaton-for="RModel.ConfirmPassword" class="text-danger"></span>
 				</div>
-				<input data-inline="true" type="button" onclick="showCfmPass()" value="Show" />
+				<input data-inline="true" type="button" id="cfmPassBtn" onclick="showCfmPass()" value="Show" />
 				</div>
 
 				
@@ -121,19 +121,23 @@
 		if(document.getElementById("password").type == "password")
 		{
 			document.getElementById("password").type = "text"
+			document.getElementById("passBtn").value = "hide"
 		}
 		else
 		{
 		document.getElementById("password").type = "password";
+			document.getElementById("passBtn").value = "show"
 		}
 							
 	}
 	function showCfmPass() {
 		if (document.getElementById("CfmPassword").type == "password") {
 			document.getElementById("CfmPassword").type = "text"
+			document.getElementById("cfmPassBtn").value = "hide"
 		}
 		else {
 			document.getElementById("CfmPassword").type = "password";
+			document.getElementById("cfmPassBtn").value = "show"
 		}
 
 	}

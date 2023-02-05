@@ -56,7 +56,7 @@ namespace Appsec_Assignment.Pages
                     //TempData["FlashMessage.Text"] = "Image has to be .jpg | " + Path.GetExtension(image.FileName);
                     return Page();
                 }
-                //check password complexity
+                
                 //image
                 var imagesFolder = "uploads";
                 var imageFile = Guid.NewGuid() + Path.GetExtension(image.FileName);
