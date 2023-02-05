@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "afifk6eS65c0KxVcsIMEFo5opumNhKe85M+fFSE34GE=",
+  "Hash": "iosOd0qEduvgJhwsvROT9rls2NLwIm7SfTXNb4Z9Kkg=",
   "Source": "Appsec_Assignment",
   "BasePath": "_content/Appsec_Assignment",
   "Mode": "Default",
@@ -1256,6 +1256,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\52ab9ffd-ee0b-4c02-9de1-14cc80e0c585.png"
+    },
+    {
+      "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\957421e9-9253-4db7-ac73-4410d71d24c9.jpg",
+      "SourceId": "Appsec_Assignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\",
+      "BasePath": "_content/Appsec_Assignment",
+      "RelativePath": "uploads/957421e9-9253-4db7-ac73-4410d71d24c9.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\957421e9-9253-4db7-ac73-4410d71d24c9.jpg"
     },
     {
       "Identity": "C:\\Users\\iraza\\Documents\\Y2S2\\AS\\Practical Assignment\\Appsec_Practical_Assignment\\Appsec_Assignment\\Appsec_Assignment\\wwwroot\\uploads\\a0b97c7f-59b8-47d8-a759-80ee918d9582.jpg",

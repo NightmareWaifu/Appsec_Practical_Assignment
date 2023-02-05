@@ -29,8 +29,6 @@ namespace Appsec_Assignment.Pages.Main
 
         public async Task<IActionResult> OnGet()
         {
-            //CurrentUser = await _userManager.FindByEmailAsync(HttpContext.Session.GetString("_Email"));
-
             if (HttpContext.Session.GetString("_Email") == null)
             {
                 await _signInManager.SignOutAsync();

@@ -5,6 +5,7 @@ namespace Appsec_Assignment.ViewModels
 {
     public class Register
     {
+        [Required]
         public string FullName { get; set; }
         [Required]
         [DataType(DataType.CreditCard)]
@@ -13,6 +14,7 @@ namespace Appsec_Assignment.ViewModels
 
         [Required]
         [DataType(DataType.EmailAddress)]
+        [Key]
         public string Email { get; set; }
 
         [Required]

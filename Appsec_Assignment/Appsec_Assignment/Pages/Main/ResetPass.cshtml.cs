@@ -27,8 +27,17 @@ namespace Appsec_Assignment.Pages.Main
 
         [BindProperty]
         public ChangePass changePassModel { get; set; }
-        public void OnGet()
+        public async Task<IActionResult> OnGet()
         {
+
+            if (HttpContext.Session.GetString("_Email") == null)
+            {
+                await signInManager.SignOutAsync();
+                TempData["FlashMessage.Type"] = "danger";
+                TempData["FlashMessage.Text"] = "Session timed out.";
+                return Redirect("../Account/Login");
+            }
+            return Page();
         }
         public async Task<IActionResult> OnPostAsync()
         {

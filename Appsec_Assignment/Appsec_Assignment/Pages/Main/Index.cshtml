@@ -20,5 +20,8 @@
 	<p>Phone Number: @Model.CurrentUser.PhoneNumber</p>
 	<p>Address: @Model.CurrentUser.Address</p>
 	<p>About Me: @Model.CurrentUser.AboutMe</p>
-	<a class="nav-link text-dark" asp-area="" asp-page="/Main/Index" asp-page-handler="Reset">Reset Password</a>
+	<button class="btn btn-primary">
+		<a class="nav-link text-light" asp-area="" asp-page="/Main/Index" asp-page-handler="Reset">Reset Password</a>
+	</button>
+	
 </div>
